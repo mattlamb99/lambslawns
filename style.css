@@ -57,5 +57,23 @@ body {
     justify-content: flex-end;
     border: 0px solid blue;
     float:right;
-    flex-grow: 1
+    flex-grow: 1;
+}
+.heroimg {
+float:center;
+align-items: center;
+
+}
+.body {
+    
+}
+
+.mowerimg {
+    clip-path: circle(230px at center);
+}
+.bodytext {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0,0,0,0.7);
+    margin: 20px;
 }
