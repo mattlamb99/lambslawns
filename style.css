@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap');
+
+.menulink {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    border: 0px solid black;
+    align-self: flex-end;
+    align-items: stretch;
+    color: #303032;
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+    margin: 10px;
+    
+}
+.menulink:hover {
+text-decoration: underline;
+color: #C83030;
+
+}
+.navbar {
+   display: flex;
+    align-items: stretch;
+    background: rgba(255,255,255,0.6);
+    background-blend-mode: darken;
+    align-items: flex-end;
+    border: 0px solid red;
+    min-width: 99vw;
+    justify-content: right;
+
+}
+.container {
+    min-height: 100vh;
+    margin: 0,0;
+    background-image: url("https://lawn-mowing-services.co.nz/wp-content/uploads/2018/05/service1-1.jpg");
+    background-size: cover;
+
+}
+
+body {
+
+    margin: 0px;
+}
+.header {
+    font-size: 45px;
+    font-family: 'Monoton', cursive;
+    border: 0px solid black;
+    margin-left: 40px;
+}
+.nav {
+    
+    max-height: 90px;
+    align-items: stretch;
+    min-width: 70%;
+    display:flex;
+    justify-content: flex-end;
+    border: 0px solid blue;
+    float:right;
+    flex-grow: 1
+}
